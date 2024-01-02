@@ -135,7 +135,7 @@ class ConsoleClass{
         if (_ws->count() >= MAX_CUIS)  // MAX_CUIS consoles already open, don't allow another.
           request->send_P(200, "text/html", alert_html); //...internal
           else request->send_P(200, "text/html", CONSOLE_HTML); //...or
-          ///else request->send(LittleFS, "/cui.htm", "text/html");
+          ///else request->send(LittleFS, "/cui.html", "text/html");
       });
 
       _ws->onEvent([&](AsyncWebSocket *server, AsyncWebSocketClient *client, AwsEventType type, void *arg, uint8_t *data, size_t len) -> void {
