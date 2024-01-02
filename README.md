@@ -29,4 +29,6 @@ This PlatformIO project directory is an EspUdpNet example template. The platform
 - Each node has WLAN browser HTML monitoring and control.
 - Message trafficing is managed via a 1-sec internal loop¹.
 
-¹ My physical device sensors and controlers have set and/or get latencies precluding 'true' real-time access. Also, I often use smoothd-data-sampling via a circular readings storage queue for most physical device sensors. And finally, Alexa voice controls and user commands from web page input forms or HTTP GET requests are far from truely real-time operations making 1-sec message looping practical.
+
+### Footnotes
+¹ My physical device sensors and controlers have set and/or get latencies precluding 'true' real-time access. Also, I often use smoothd-data-sampling via a circular readings storage queue for most physical device sensors. And finally, Alexa voice controls and user commands from web page input forms or HTTP GET requests are far from truely real-time operations making the demo's 1-sec test message looping practical.
