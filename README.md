@@ -28,3 +28,6 @@ This PlatformIO project directory is an EspUdpNet example template. The platform
 - Each node has a direct connection to Alexa for control and monitoring.
 - Each node has WLAN browser HTML monitoring and control.
 - Test message trafficing is managed via a 1-sec interval loop.
+
+## Caution
+EspUdpNet is a DIY in-house project by a non-developer, myself, and not ready for prime-time implementation.
